@@ -256,3 +256,37 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+# Fixtures
+# --------
+fixtures = [
+    {
+        "doctype": "DocType",
+        "filters": [["name", "in", [
+            "Demande Achat ISQ",
+            "Demande Achat ISQ Article",
+            "Fournisseur ISQ",
+            "Fournisseur Article ISQ",
+            "Bon de Commande ISQ",
+            "BC ISQ Item",
+            "Bon de Reception ISQ",
+            "BR ISQ ART",
+            "Demande de Devis ISQ",
+            "DD ISQ Article",
+            "DD ISQ Fournisseur",
+            "DD ISQ Synthese",
+            "Bon de Reglement ISQ",
+            "Bon Execution ISQ",
+            "Client ISQ"
+        ]]]
+    },
+    "Workflow",
+    "Workflow State",
+    "Workflow Action Master",
+    "Custom Field",
+    "Property Setter",
+    "Client Script",
+    "Server Script",
+    "Workspace",
+    "Role"
+]

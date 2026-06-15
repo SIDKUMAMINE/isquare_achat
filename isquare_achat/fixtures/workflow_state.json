@@ -1,0 +1,227 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2026-05-04 17:23:46.812079",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2026-05-04 17:23:46.814231",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2026-05-04 17:23:46.815410",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 10:22:18.084368",
+  "name": "Rejetée",
+  "style": "Danger",
+  "workflow_state_name": "Rejetée"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 14:22:47.994232",
+  "name": "Brouillon BR",
+  "style": "Warning",
+  "workflow_state_name": "Brouillon BR"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 14:23:25.164237",
+  "name": "BR Validé",
+  "style": "Success",
+  "workflow_state_name": "BR Validé"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-21 17:06:58.495784",
+  "name": "Transmis Trésorier",
+  "style": "",
+  "workflow_state_name": "Transmis Trésorier"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-21 17:06:58.498176",
+  "name": "Payé",
+  "style": "",
+  "workflow_state_name": "Payé"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-21 17:06:58.500615",
+  "name": "Annulé",
+  "style": "",
+  "workflow_state_name": "Annulé"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-21 17:11:49.278564",
+  "name": "En attente Trésorier",
+  "style": "",
+  "workflow_state_name": "En attente Trésorier"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-21 17:11:49.281637",
+  "name": "Annulé Trésorier",
+  "style": "",
+  "workflow_state_name": "Annulé Trésorier"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 10:20:25.766760",
+  "name": "Brouillon",
+  "style": "Warning",
+  "workflow_state_name": "Brouillon"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 14:23:44.112431",
+  "name": "BR Rejeté",
+  "style": "Danger",
+  "workflow_state_name": "BR Rejeté"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-21 17:06:58.252209",
+  "name": "En attente",
+  "style": "",
+  "workflow_state_name": "En attente"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-21 17:11:48.969854",
+  "name": "En cours d'exécution",
+  "style": "",
+  "workflow_state_name": "En cours d'exécution"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-21 17:11:49.275024",
+  "name": "Exécuté",
+  "style": "",
+  "workflow_state_name": "Exécuté"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 10:20:45.417242",
+  "name": "En attente Chef Chantier",
+  "style": "Primary",
+  "workflow_state_name": "En attente Chef Chantier"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 12:45:29.131359",
+  "name": "Brouillon BC",
+  "style": "Warning",
+  "workflow_state_name": "Brouillon BC"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 12:45:40.817655",
+  "name": "En attente DG",
+  "style": "Primary",
+  "workflow_state_name": "En attente DG"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 12:46:12.142016",
+  "name": "BC Rejeté",
+  "style": "Danger",
+  "workflow_state_name": "BC Rejeté"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 12:46:23.504935",
+  "name": "BC Envoyé",
+  "style": "Info",
+  "workflow_state_name": "BC Envoyé"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 10:21:21.901243",
+  "name": "Approuvée",
+  "style": "Success",
+  "workflow_state_name": "Approuvée"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 12:45:50.931987",
+  "name": "BC Approuvé",
+  "style": "Success",
+  "workflow_state_name": "BC Approuvé"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 10:21:02.469560",
+  "name": "En attente Acheteur",
+  "style": "Primary",
+  "workflow_state_name": "En attente Acheteur"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-05-12 14:23:03.386528",
+  "name": "En vérification",
+  "style": "Primary",
+  "workflow_state_name": "En vérification"
+ }
+]
