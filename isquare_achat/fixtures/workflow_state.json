@@ -223,5 +223,14 @@
   "name": "En vérification",
   "style": "Primary",
   "workflow_state_name": "En vérification"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-06-26 15:53:23.272339",
+  "name": "En attente Chef Projet",
+  "style": "Warning",
+  "workflow_state_name": "En attente Chef Projet"
  }
 ]

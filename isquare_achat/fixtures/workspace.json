@@ -4479,8 +4479,13 @@
  {
   "app": "erpnext",
   "charts": [],
-  "content": "[{\"id\":\"t1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bon de Reglement ISQ\",\"col\":3}},{\"id\":\"t2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bon Execution ISQ\",\"col\":3}},{\"id\":\"t3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fournisseur ISQ\",\"col\":3}},{\"id\":\"t4\",\"type\":\"card\",\"data\":{\"card_name\":\"Trésorerie\",\"col\":12}}]",
-  "custom_blocks": [],
+  "content": "[{\"id\":\"Ud7KwftUGG\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Bandeau ISQ Trésorier\",\"col\":12}},{\"id\":\"eiZ85bRThS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Règlements à payer\",\"col\":6}},{\"id\":\"sxO5ThlaRw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Nouveau Bon d'Exécution\",\"col\":6}},{\"id\":\"JNVuBAC00b\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\" Bon de Reglement  À payer\",\"col\":6}},{\"id\":\"Cx_qaPSNRO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bons d'Exécution\",\"col\":6}},{\"id\":\"dl0D-7brEx\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\" Règlements transmis\",\"col\":6}},{\"id\":\"q_UP7-CfRW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Montant à régler Bon de Reglement \",\"col\":3}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "Bandeau ISQ Trésorier",
+    "label": "Bandeau ISQ Trésorier"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Workspace",
   "external_link": null,
@@ -4539,13 +4544,28 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-06-04 11:02:23.649051",
+  "modified": "2026-06-26 15:34:23.202508",
   "module": null,
   "name": "Espace Tresorier ISQ",
-  "number_cards": [],
+  "number_cards": [
+   {
+    "label": " Bon de Reglement  À payer",
+    "number_card_name": "À payer"
+   },
+   {
+    "label": "Montant à régler Bon de Reglement ",
+    "number_card_name": "Montant à régler"
+   }
+  ],
   "parent_page": null,
   "public": 1,
-  "quick_lists": [],
+  "quick_lists": [
+   {
+    "document_type": "Bon de Reglement ISQ",
+    "label": " Règlements transmis",
+    "quick_list_filter": "[[\"Bon de Reglement ISQ\",\"statut\",\"=\",\"Transmis Trésorier\"]]"
+   }
+  ],
   "restrict_to_domain": null,
   "roles": [
    {
@@ -4555,44 +4575,44 @@
   "sequence_id": 0.0,
   "shortcuts": [
    {
-    "color": null,
-    "doc_view": "",
+    "color": "Grey",
+    "doc_view": "List",
     "format": null,
     "icon": null,
     "kanban_board": null,
-    "label": "Bon de Reglement ISQ",
+    "label": "Règlements à payer",
     "link_to": "Bon de Reglement ISQ",
     "report_ref_doctype": null,
     "restrict_to_domain": null,
-    "stats_filter": null,
+    "stats_filter": "[[\"Bon de Reglement ISQ\",\"statut\",\"=\",\"Transmis Trésorier\"]]",
     "type": "DocType",
     "url": null
    },
    {
-    "color": null,
-    "doc_view": "",
+    "color": "Grey",
+    "doc_view": "List",
     "format": null,
     "icon": null,
     "kanban_board": null,
-    "label": "Bon Execution ISQ",
+    "label": "Nouveau Bon d'Exécution",
+    "link_to": null,
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "URL",
+    "url": "http://localhost:8080/desk/bon-execution-isq/new-bon-execution-isq-tawdaulqaz"
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Bons d'Exécution",
     "link_to": "Bon Execution ISQ",
     "report_ref_doctype": null,
     "restrict_to_domain": null,
-    "stats_filter": null,
-    "type": "DocType",
-    "url": null
-   },
-   {
-    "color": null,
-    "doc_view": "",
-    "format": null,
-    "icon": null,
-    "kanban_board": null,
-    "label": "Fournisseur ISQ",
-    "link_to": "Fournisseur ISQ",
-    "report_ref_doctype": null,
-    "restrict_to_domain": null,
-    "stats_filter": null,
+    "stats_filter": "[]",
     "type": "DocType",
     "url": null
    }
@@ -4603,8 +4623,13 @@
  {
   "app": "erpnext",
   "charts": [],
-  "content": "[{\"id\": \"911e7591c0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Demande Achat ISQ\", \"col\": 3}}, {\"id\": \"866d8af2d2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Project\", \"col\": 3}}, {\"id\": \"07c5476b21\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Bon de Commande ISQ\", \"col\": 3}}, {\"id\": \"eb82afcbe9\", \"type\": \"card\", \"data\": {\"card_name\": \"Gestion Projet\", \"col\": 12, \"links\": [{\"label\": \"Demande Achat ISQ\", \"link_to\": \"Demande Achat ISQ\", \"type\": \"DocType\"}, {\"label\": \"Project\", \"link_to\": \"Project\", \"type\": \"DocType\"}, {\"label\": \"Bon de Commande ISQ\", \"link_to\": \"Bon de Commande ISQ\", \"type\": \"DocType\"}]}}]",
-  "custom_blocks": [],
+  "content": "[{\"id\":\"8o-LN3F4Rc\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Bandeau ISQ Chef Projet\",\"col\":12}},{\"id\":\"911e7591c0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"DA à valider\",\"col\":6}},{\"id\":\"asS7phOtM8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mes projets\",\"col\":6}},{\"id\":\"07c5476b21\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bon de Commande ISQ\",\"col\":3}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "Bandeau ISQ Chef Projet",
+    "label": "Bandeau ISQ Chef Projet"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Workspace",
   "external_link": null,
@@ -4663,7 +4688,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-06-03 14:30:37.691480",
+  "modified": "2026-06-26 16:39:26.354803",
   "module": null,
   "name": "Espace Chef Projet ISQ",
   "number_cards": [],
@@ -4679,30 +4704,30 @@
   "sequence_id": 0.0,
   "shortcuts": [
    {
-    "color": null,
-    "doc_view": "",
+    "color": "Yellow",
+    "doc_view": "List",
     "format": null,
     "icon": null,
     "kanban_board": null,
-    "label": "Demande Achat ISQ",
+    "label": "DA à valider",
     "link_to": "Demande Achat ISQ",
     "report_ref_doctype": null,
     "restrict_to_domain": null,
-    "stats_filter": null,
+    "stats_filter": "[[\"Demande Achat ISQ\",\"workflow_state\",\"=\",\"En attente Chef Projet\"]]",
     "type": "DocType",
     "url": null
    },
    {
-    "color": null,
-    "doc_view": "",
+    "color": "Grey",
+    "doc_view": "List",
     "format": null,
     "icon": null,
     "kanban_board": null,
-    "label": "Project",
+    "label": "Mes projets",
     "link_to": "Project",
     "report_ref_doctype": null,
     "restrict_to_domain": null,
-    "stats_filter": null,
+    "stats_filter": "[]",
     "type": "DocType",
     "url": null
    },
@@ -4899,37 +4924,6 @@
    }
   ],
   "title": "Espace Comptable ISQ",
-  "type": "Workspace"
- },
- {
-  "app": null,
-  "charts": [],
-  "content": "[]",
-  "custom_blocks": [],
-  "docstatus": 0,
-  "doctype": "Workspace",
-  "external_link": null,
-  "for_user": "admin@isquare.com",
-  "hide_custom": 0,
-  "icon": null,
-  "indicator_color": "green",
-  "is_hidden": 0,
-  "label": "stock mat",
-  "link_to": null,
-  "link_type": "DocType",
-  "links": [],
-  "modified": "2026-06-25 14:53:38.795841",
-  "module": null,
-  "name": "stock mat",
-  "number_cards": [],
-  "parent_page": null,
-  "public": 0,
-  "quick_lists": [],
-  "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 0.0,
-  "shortcuts": [],
-  "title": "stock mat",
   "type": "Workspace"
  },
  {
