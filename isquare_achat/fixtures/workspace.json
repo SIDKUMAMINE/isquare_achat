@@ -4727,8 +4727,13 @@
  {
   "app": "erpnext",
   "charts": [],
-  "content": "[{\"id\": \"2c13fbb0a7\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Bon de Reglement ISQ\", \"col\": 3}}, {\"id\": \"972a235671\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Bon de Commande ISQ\", \"col\": 3}}, {\"id\": \"8bd9400116\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Bon de Reception ISQ\", \"col\": 3}}, {\"id\": \"cccf7e42e6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Fournisseur ISQ\", \"col\": 3}}, {\"id\": \"b70af70a48\", \"type\": \"card\", \"data\": {\"card_name\": \"Comptabilit\\u00e9 Fournisseurs\", \"col\": 12, \"links\": [{\"label\": \"Bon de Reglement ISQ\", \"link_to\": \"Bon de Reglement ISQ\", \"type\": \"DocType\"}, {\"label\": \"Bon de Commande ISQ\", \"link_to\": \"Bon de Commande ISQ\", \"type\": \"DocType\"}, {\"label\": \"Bon de Reception ISQ\", \"link_to\": \"Bon de Reception ISQ\", \"type\": \"DocType\"}, {\"label\": \"Fournisseur ISQ\", \"link_to\": \"Fournisseur ISQ\", \"type\": \"DocType\"}]}}]",
-  "custom_blocks": [],
+  "content": "[{\"id\":\"0E9YNv8EKT\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Bandeau ISQ Comptable\",\"col\":12}},{\"id\":\"r02IxsJTRq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\" Bon de Reception  à vérifier\",\"col\":6}},{\"id\":\"KE_-oXswHG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Nouveau Bon de Règlement\",\"col\":6}},{\"id\":\"SCx5gxTcTh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bon de Commande  à vérifier\",\"col\":6}},{\"id\":\"wDtlsCKm1e\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bons de Règlement\",\"col\":6}},{\"id\":\"XZ1wJd8tzH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Bon Reception à vérifier\",\"col\":6}},{\"id\":\"06UoQCNO9I\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Règlements à créer\",\"col\":6}},{\"id\":\"NPsIR9JTIu\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Règlements en attente\",\"col\":6}},{\"id\":\"Iw1DRwPDUZ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Bon de Reception à vérifier \",\"col\":6}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "Bandeau ISQ Comptable",
+    "label": "Bandeau ISQ Comptable"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Workspace",
   "external_link": null,
@@ -4802,13 +4807,32 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-06-03 13:51:11.306155",
+  "modified": "2026-06-26 14:53:41.201501",
   "module": null,
   "name": "Espace Comptable ISQ",
-  "number_cards": [],
+  "number_cards": [
+   {
+    "label": "Bon Reception à vérifier",
+    "number_card_name": "BR à vérifier"
+   },
+   {
+    "label": "Règlements en attente",
+    "number_card_name": "Règlements en attente"
+   },
+   {
+    "label": "Règlements à créer",
+    "number_card_name": "Règlements à créer"
+   }
+  ],
   "parent_page": null,
   "public": 1,
-  "quick_lists": [],
+  "quick_lists": [
+   {
+    "document_type": "Bon de Reception ISQ",
+    "label": "Bon de Reception à vérifier ",
+    "quick_list_filter": "[[\"Bon de Reception ISQ\",\"workflow_state\",\"=\",\"BR Validé\"]]"
+   }
+  ],
   "restrict_to_domain": null,
   "roles": [
    {
@@ -4818,58 +4842,58 @@
   "sequence_id": 0.0,
   "shortcuts": [
    {
-    "color": null,
-    "doc_view": "",
+    "color": "Grey",
+    "doc_view": "List",
     "format": null,
     "icon": null,
     "kanban_board": null,
-    "label": "Bon de Reglement ISQ",
-    "link_to": "Bon de Reglement ISQ",
-    "report_ref_doctype": null,
-    "restrict_to_domain": null,
-    "stats_filter": null,
-    "type": "DocType",
-    "url": null
-   },
-   {
-    "color": null,
-    "doc_view": "",
-    "format": null,
-    "icon": null,
-    "kanban_board": null,
-    "label": "Bon de Commande ISQ",
-    "link_to": "Bon de Commande ISQ",
-    "report_ref_doctype": null,
-    "restrict_to_domain": null,
-    "stats_filter": null,
-    "type": "DocType",
-    "url": null
-   },
-   {
-    "color": null,
-    "doc_view": "",
-    "format": null,
-    "icon": null,
-    "kanban_board": null,
-    "label": "Bon de Reception ISQ",
+    "label": " Bon de Reception  à vérifier",
     "link_to": "Bon de Reception ISQ",
     "report_ref_doctype": null,
     "restrict_to_domain": null,
-    "stats_filter": null,
+    "stats_filter": "[[\"Bon de Reception ISQ\",\"workflow_state\",\"=\",\"BR Validé\"]]",
     "type": "DocType",
     "url": null
    },
    {
-    "color": null,
-    "doc_view": "",
+    "color": "Grey",
+    "doc_view": "List",
     "format": null,
     "icon": null,
     "kanban_board": null,
-    "label": "Fournisseur ISQ",
-    "link_to": "Fournisseur ISQ",
+    "label": "Bon de Commande  à vérifier",
+    "link_to": "Bon de Commande ISQ",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[[\"Bon de Commande ISQ\",\"workflow_state\",\"=\",\"BC Envoyé\"]]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Nouveau Bon de Règlement",
+    "link_to": null,
     "report_ref_doctype": null,
     "restrict_to_domain": null,
     "stats_filter": null,
+    "type": "URL",
+    "url": "http://localhost:8080/desk/bon-de-reglement-isq/new-bon-de-reglement-isq-tpkgaaffsj"
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Bons de Règlement",
+    "link_to": "Bon de Reglement ISQ",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
     "type": "DocType",
     "url": null
    }

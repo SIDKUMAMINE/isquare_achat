@@ -24,6 +24,17 @@
  {
   "docstatus": 0,
   "doctype": "Custom HTML Block",
+  "html": "<div style=\"display:flex;align-items:center;gap:16px;flex-wrap:wrap;\n            padding:16px 22px;border-radius:12px;color:#fff;\n            background:linear-gradient(135deg,#2C3E50 0%,#34495E 100%);\">\n  <img src=\"/files/logoISQ.png\" alt=\"ISquare\"\n       style=\"height:46px;width:auto;background:#fff;padding:6px;border-radius:8px;\">\n  <div style=\"line-height:1.3;\">\n    <div style=\"font-size:20px;font-weight:700;letter-spacing:.4px;\">ISQUARE SARL</div>\n<div style=\"font-size:13px;opacity:.85;\">Comptabilit&eacute; &mdash; Factures &amp; R&egrave;glements</div>  </div>\n  <div style=\"margin-left:auto;font-size:12px;opacity:.65;\">Tanger &middot; Maroc</div>\n</div>",
+  "modified": "2026-06-26 14:34:32.322804",
+  "name": "Bandeau ISQ Comptable",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
   "html": "<div style=\"display:flex;align-items:center;gap:16px;flex-wrap:wrap;\n            padding:16px 22px;border-radius:12px;color:#fff;\n            background:linear-gradient(135deg,#2C3E50 0%,#34495E 100%);\">\n  <img src=\"/files/logoISQ.png\" alt=\"ISquare\"\n       style=\"height:46px;width:auto;background:#fff;padding:6px;border-radius:8px;\">\n  <div style=\"line-height:1.3;\">\n    <div style=\"font-size:20px;font-weight:700;letter-spacing:.4px;\">ISQUARE SARL</div>\n<div style=\"font-size:13px;opacity:.85;\">Espace Acheteur &mdash; Devis &amp; Commandes</div>  </div>\n  <div style=\"margin-left:auto;font-size:12px;opacity:.65;\">Tanger &middot; Maroc</div>\n</div>",
   "modified": "2026-06-26 11:21:59.490678",
   "name": "Bandeau ISQ Acheteur",
