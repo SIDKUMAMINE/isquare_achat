@@ -533,7 +533,7 @@
     "restrict_to_domain": null,
     "stats_filter": null,
     "type": "URL",
-    "url": "http://localhost:8080/desk/bon-de-commande-isq/new-bon-de-commande-isq-gnjdejjrga"
+    "url": "/app/bon-de-commande-isq/new"
    },
    {
     "color": "Cyan",
@@ -561,7 +561,7 @@
     "restrict_to_domain": null,
     "stats_filter": null,
     "type": "URL",
-    "url": "http://localhost:8080/desk/demande-de-devis-isq/new-demande-de-devis-isq-njasjclwen"
+    "url": "/app/demande-de-devis-isq/new"
    },
    {
     "color": "Green",
@@ -705,7 +705,7 @@
     "restrict_to_domain": null,
     "stats_filter": null,
     "type": "URL",
-    "url": "http://localhost:8080/desk/bon-execution-isq/new-bon-execution-isq-tawdaulqaz"
+    "url": "/app/bon-execution-isq/new"
    },
    {
     "color": "Grey",
@@ -1008,7 +1008,7 @@
     "restrict_to_domain": null,
     "stats_filter": null,
     "type": "URL",
-    "url": "http://localhost:8080/desk/bon-de-reglement-isq/new-bon-de-reglement-isq-tpkgaaffsj"
+    "url": "/app/bon-de-reglement-isq/new"
    },
    {
     "color": "Grey",
