@@ -287,7 +287,7 @@ fixtures = [
     "Property Setter",
     "Client Script",
     "Server Script",
-    "Workspace",
+    {"dt": "Workspace", "filters": [["name", "like", "%ISQ%"]]},
     "Custom HTML Block",
     {"dt": "Number Card", "filters": [["document_type", "like", "%ISQ%"]]},
     "Role"
