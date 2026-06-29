@@ -4623,7 +4623,7 @@
  {
   "app": "erpnext",
   "charts": [],
-  "content": "[{\"id\":\"8o-LN3F4Rc\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Bandeau ISQ Chef Projet\",\"col\":12}},{\"id\":\"911e7591c0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"DA à valider\",\"col\":6}},{\"id\":\"asS7phOtM8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mes projets\",\"col\":6}},{\"id\":\"07c5476b21\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bon de Commande ISQ\",\"col\":3}}]",
+  "content": "[{\"id\":\"8o-LN3F4Rc\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Bandeau ISQ Chef Projet\",\"col\":12}},{\"id\":\"911e7591c0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Demande Achat à valider\",\"col\":6}},{\"id\":\"7eq9N-j-Nt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Demande Achat  en attente de mon approbation\",\"col\":6}},{\"id\":\"asS7phOtM8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mes projets\",\"col\":6}},{\"id\":\"a1xSaLv5XO\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Demandes d'Achat à valider\",\"col\":6}}]",
   "custom_blocks": [
    {
     "custom_block_name": "Bandeau ISQ Chef Projet",
@@ -4688,13 +4688,24 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-06-26 16:39:26.354803",
+  "modified": "2026-06-27 09:18:20.881574",
   "module": null,
   "name": "Espace Chef Projet ISQ",
-  "number_cards": [],
+  "number_cards": [
+   {
+    "label": "Demande Achat  en attente de mon approbation",
+    "number_card_name": "DA en attente de mon approbation"
+   }
+  ],
   "parent_page": null,
   "public": 1,
-  "quick_lists": [],
+  "quick_lists": [
+   {
+    "document_type": "Demande Achat ISQ",
+    "label": "Demandes d'Achat à valider",
+    "quick_list_filter": "[[\"Demande Achat ISQ\",\"workflow_state\",\"=\",\"En attente Chef Projet\"]]"
+   }
+  ],
   "restrict_to_domain": null,
   "roles": [
    {
@@ -4709,7 +4720,7 @@
     "format": null,
     "icon": null,
     "kanban_board": null,
-    "label": "DA à valider",
+    "label": "Demande Achat à valider",
     "link_to": "Demande Achat ISQ",
     "report_ref_doctype": null,
     "restrict_to_domain": null,
@@ -4728,20 +4739,6 @@
     "report_ref_doctype": null,
     "restrict_to_domain": null,
     "stats_filter": "[]",
-    "type": "DocType",
-    "url": null
-   },
-   {
-    "color": null,
-    "doc_view": "",
-    "format": null,
-    "icon": null,
-    "kanban_board": null,
-    "label": "Bon de Commande ISQ",
-    "link_to": "Bon de Commande ISQ",
-    "report_ref_doctype": null,
-    "restrict_to_domain": null,
-    "stats_filter": null,
     "type": "DocType",
     "url": null
    }
