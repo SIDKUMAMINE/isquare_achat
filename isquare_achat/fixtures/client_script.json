@@ -53,5 +53,71 @@
   "name": "Bon de Commande ISQ Print",
   "script": "frappe.ui.form.on('Bon de Commande ISQ', {\n    refresh: function(frm) {\n        if (!frm.is_new()) {\n            frm.add_custom_button('Imprimer', () => frm.print_doc());\n        }\n    }\n});",
   "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Bon de Commande ISQ",
+  "enabled": 1,
+  "modified": "2026-06-30 15:21:58.894137",
+  "module": null,
+  "name": "Bon de Commande ISQ - Bouton Nouveau",
+  "script": "frappe.ui.form.on('Bon de Commande ISQ', {\n    creer_nouveau: function(frm) {\n        frappe.new_doc('Bon de Commande ISQ');\n    }\n});\n\nfrappe.dom.set_style(`\n@media (max-width: 768px) {\n    /* Ajuster la marge du conteneur d'action principale en haut à droite */\n    .page-head .page-actions,\n    .page-head .primary-action,\n    .page-head button[data-label=\"New\"],\n    .page-head .standard-actions button {\n        margin-right: 18px !important;  /* Éloigne le bouton du bord de l'écran */\n        margin-left: 12px !important;   /* Évite les collisions avec la recherche/les filtres */\n    }\n}\n`);",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Bon de Reception ISQ",
+  "enabled": 1,
+  "modified": "2026-06-30 15:21:59.003019",
+  "module": null,
+  "name": "Bon de Reception ISQ - Bouton Nouveau",
+  "script": "frappe.ui.form.on('Bon de Reception ISQ', {\n    creer_nouveau: function(frm) {\n        frappe.new_doc('Bon de Reception ISQ');\n    }\n});\n\nfrappe.dom.set_style(`\n@media (max-width: 768px) {\n    /* Ajuster la marge du conteneur d'action principale en haut à droite */\n    .page-head .page-actions,\n    .page-head .primary-action,\n    .page-head button[data-label=\"New\"],\n    .page-head .standard-actions button {\n        margin-right: 18px !important;  /* Éloigne le bouton du bord de l'écran */\n        margin-left: 12px !important;   /* Évite les collisions avec la recherche/les filtres */\n    }\n}\n`);",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Bon de Reglement ISQ",
+  "enabled": 1,
+  "modified": "2026-06-30 15:21:59.047041",
+  "module": null,
+  "name": "Bon de Reglement ISQ - Bouton Nouveau",
+  "script": "frappe.ui.form.on('Bon de Reglement ISQ', {\n    creer_nouveau: function(frm) {\n        frappe.new_doc('Bon de Reglement ISQ');\n    }\n});\n\nfrappe.dom.set_style(`\n@media (max-width: 768px) {\n    /* Ajuster la marge du conteneur d'action principale en haut à droite */\n    .page-head .page-actions,\n    .page-head .primary-action,\n    .page-head button[data-label=\"New\"],\n    .page-head .standard-actions button {\n        margin-right: 18px !important;  /* Éloigne le bouton du bord de l'écran */\n        margin-left: 12px !important;   /* Évite les collisions avec la recherche/les filtres */\n    }\n}\n`);",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Bon Execution ISQ",
+  "enabled": 1,
+  "modified": "2026-06-30 15:21:59.091094",
+  "module": null,
+  "name": "Bon Execution ISQ - Bouton Nouveau",
+  "script": "frappe.ui.form.on('Bon Execution ISQ', {\n    creer_nouveau: function(frm) {\n        frappe.new_doc('Bon Execution ISQ');\n    }\n});\n\nfrappe.dom.set_style(`\n@media (max-width: 768px) {\n    /* Ajuster la marge du conteneur d'action principale en haut à droite */\n    .page-head .page-actions,\n    .page-head .primary-action,\n    .page-head button[data-label=\"New\"],\n    .page-head .standard-actions button {\n        margin-right: 18px !important;  /* Éloigne le bouton du bord de l'écran */\n        margin-left: 12px !important;   /* Évite les collisions avec la recherche/les filtres */\n    }\n}\n`);",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Demande Achat ISQ",
+  "enabled": 1,
+  "modified": "2026-06-30 15:21:59.144404",
+  "module": null,
+  "name": "Demande Achat ISQ - Bouton Nouveau",
+  "script": "frappe.ui.form.on('Demande Achat ISQ', {\n    creer_nouveau: function(frm) {\n        frappe.new_doc('Demande Achat ISQ');\n    }\n});\n\nfrappe.dom.set_style(`\n@media (max-width: 768px) {\n    /* Ajuster la marge du conteneur d'action principale en haut à droite */\n    .page-head .page-actions,\n    .page-head .primary-action,\n    .page-head button[data-label=\"New\"],\n    .page-head .standard-actions button {\n        margin-right: 18px !important;  /* Éloigne le bouton du bord de l'écran */\n        margin-left: 12px !important;   /* Évite les collisions avec la recherche/les filtres */\n    }\n}\n`);",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Demande de Devis ISQ",
+  "enabled": 1,
+  "modified": "2026-06-30 15:21:59.187470",
+  "module": null,
+  "name": "Demande de Devis ISQ - Bouton Nouveau",
+  "script": "frappe.ui.form.on('Demande de Devis ISQ', {\n    creer_nouveau: function(frm) {\n        frappe.new_doc('Demande de Devis ISQ');\n    }\n});\n\nfrappe.dom.set_style(`\n@media (max-width: 768px) {\n    /* Ajuster la marge du conteneur d'action principale en haut à droite */\n    .page-head .page-actions,\n    .page-head .primary-action,\n    .page-head button[data-label=\"New\"],\n    .page-head .standard-actions button {\n        margin-right: 18px !important;  /* Éloigne le bouton du bord de l'écran */\n        margin-left: 12px !important;   /* Évite les collisions avec la recherche/les filtres */\n    }\n}\n`);",
+  "view": "Form"
  }
 ]
