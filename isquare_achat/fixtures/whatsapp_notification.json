@@ -1,0 +1,311 @@
+[
+ {
+  "attach": null,
+  "attach_document_print": 0,
+  "attach_from_field": null,
+  "button_fields": null,
+  "code": null,
+  "condition": "doc.workflow_state == \"En attente Chef Projet\"",
+  "custom_attachment": 0,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "WhatsApp Notification",
+  "doctype_event": "After Save",
+  "event_frequency": "All",
+  "field_name": "chef_projet_whatsapp",
+  "fields": [
+   {
+    "field_name": "name"
+   },
+   {
+    "field_name": "designation"
+   },
+   {
+    "field_name": "demande_par"
+   },
+   {
+    "field_name": "date_besoin"
+   },
+   {
+    "field_name": "priorite"
+   }
+  ],
+  "file_name": null,
+  "header_type": null,
+  "modified": "2026-07-02 15:12:34.606595",
+  "name": "DA Soumise - Notif Chef Projet",
+  "notification_name": "DA Soumise - Notif Chef Projet",
+  "notification_type": "DocType Event",
+  "property_value": null,
+  "reference_doctype": "Demande Achat ISQ",
+  "set_property_after_alert": null,
+  "template": "da_soumise_chef_projet-fr",
+  "whatsapp_account": "ISquare Test"
+ },
+ {
+  "attach": null,
+  "attach_document_print": 0,
+  "attach_from_field": null,
+  "button_fields": null,
+  "code": null,
+  "condition": "doc.workflow_state == \"En attente Acheteur\"",
+  "custom_attachment": 0,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "WhatsApp Notification",
+  "doctype_event": "After Save",
+  "event_frequency": "All",
+  "field_name": "acheteur_whatsapp",
+  "fields": [
+   {
+    "field_name": "name"
+   },
+   {
+    "field_name": "designation"
+   },
+   {
+    "field_name": "service_chantier"
+   },
+   {
+    "field_name": "priorite"
+   },
+   {
+    "field_name": "demande_par"
+   }
+  ],
+  "file_name": null,
+  "header_type": null,
+  "modified": "2026-07-02 15:12:34.686911",
+  "name": "DA Approuvee - Notif Acheteur",
+  "notification_name": "DA Approuvee - Notif Acheteur",
+  "notification_type": "DocType Event",
+  "property_value": null,
+  "reference_doctype": "Demande Achat ISQ",
+  "set_property_after_alert": null,
+  "template": "da_approuvee_acheteur-fr",
+  "whatsapp_account": "ISquare Test"
+ },
+ {
+  "attach": null,
+  "attach_document_print": 0,
+  "attach_from_field": null,
+  "button_fields": null,
+  "code": null,
+  "condition": "doc.workflow_state == \"En attente DG\"",
+  "custom_attachment": 0,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "WhatsApp Notification",
+  "doctype_event": "After Save",
+  "event_frequency": "All",
+  "field_name": "dg_whatsapp",
+  "fields": [
+   {
+    "field_name": "name"
+   },
+   {
+    "field_name": "nom_du_fournisseur"
+   },
+   {
+    "field_name": "total_ttc"
+   },
+   {
+    "field_name": "référence_da"
+   },
+   {
+    "field_name": "date_de_bc"
+   }
+  ],
+  "file_name": null,
+  "header_type": null,
+  "modified": "2026-07-02 15:12:34.725752",
+  "name": "BC Soumis - Notif DG",
+  "notification_name": "BC Soumis - Notif DG",
+  "notification_type": "DocType Event",
+  "property_value": null,
+  "reference_doctype": "Bon de Commande ISQ",
+  "set_property_after_alert": null,
+  "template": "bc_soumis_dg-fr",
+  "whatsapp_account": "ISquare Test"
+ },
+ {
+  "attach": null,
+  "attach_document_print": 0,
+  "attach_from_field": null,
+  "button_fields": null,
+  "code": null,
+  "condition": "doc.workflow_state == \"BC Approuvé\"",
+  "custom_attachment": 0,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "WhatsApp Notification",
+  "doctype_event": "After Save",
+  "event_frequency": "All",
+  "field_name": "acheteur_bc_whatsapp",
+  "fields": [
+   {
+    "field_name": "name"
+   },
+   {
+    "field_name": "nom_du_fournisseur"
+   },
+   {
+    "field_name": "total_ttc"
+   },
+   {
+    "field_name": "point_de_contact"
+   },
+   {
+    "field_name": "référence_da"
+   }
+  ],
+  "file_name": null,
+  "header_type": null,
+  "modified": "2026-07-02 15:12:34.765562",
+  "name": "BC Approuve - Notif Acheteur",
+  "notification_name": "BC Approuve - Notif Acheteur",
+  "notification_type": "DocType Event",
+  "property_value": null,
+  "reference_doctype": "Bon de Commande ISQ",
+  "set_property_after_alert": null,
+  "template": "bc_approuve_acheteur-fr",
+  "whatsapp_account": "ISquare Test"
+ },
+ {
+  "attach": null,
+  "attach_document_print": 0,
+  "attach_from_field": null,
+  "button_fields": null,
+  "code": null,
+  "condition": "doc.workflow_state == \"En vérification\"",
+  "custom_attachment": 0,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "WhatsApp Notification",
+  "doctype_event": "After Save",
+  "event_frequency": "All",
+  "field_name": "magasinier_whatsapp",
+  "fields": [
+   {
+    "field_name": "name"
+   },
+   {
+    "field_name": "référence_bc"
+   },
+   {
+    "field_name": "nom_fournisseur"
+   },
+   {
+    "field_name": "réceptionné_par"
+   }
+  ],
+  "file_name": null,
+  "header_type": null,
+  "modified": "2026-07-02 15:12:34.802278",
+  "name": "BR Soumis - Notif Magasinier",
+  "notification_name": "BR Soumis - Notif Magasinier",
+  "notification_type": "DocType Event",
+  "property_value": null,
+  "reference_doctype": "Bon de Reception ISQ",
+  "set_property_after_alert": null,
+  "template": "br_soumis_magasinier-fr",
+  "whatsapp_account": "ISquare Test"
+ },
+ {
+  "attach": null,
+  "attach_document_print": 0,
+  "attach_from_field": null,
+  "button_fields": null,
+  "code": null,
+  "condition": "doc.workflow_state == \"BR Validé\"",
+  "custom_attachment": 0,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "WhatsApp Notification",
+  "doctype_event": "After Save",
+  "event_frequency": "All",
+  "field_name": "comptable_whatsapp",
+  "fields": [
+   {
+    "field_name": "name"
+   },
+   {
+    "field_name": "référence_bc"
+   },
+   {
+    "field_name": "montant_ttc_bc"
+   },
+   {
+    "field_name": "nom_fournisseur"
+   }
+  ],
+  "file_name": null,
+  "header_type": null,
+  "modified": "2026-07-02 15:12:34.839998",
+  "name": "BR Valide - Notif Comptable",
+  "notification_name": "BR Valide - Notif Comptable",
+  "notification_type": "DocType Event",
+  "property_value": null,
+  "reference_doctype": "Bon de Reception ISQ",
+  "set_property_after_alert": null,
+  "template": "br_valide_comptable-fr",
+  "whatsapp_account": "ISquare Test"
+ },
+ {
+  "attach": null,
+  "attach_document_print": 0,
+  "attach_from_field": null,
+  "button_fields": null,
+  "code": null,
+  "condition": "doc.workflow_state == \"Transmis Trésorier\"",
+  "custom_attachment": 0,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "WhatsApp Notification",
+  "doctype_event": "After Save",
+  "event_frequency": "All",
+  "field_name": "tresorier_whatsapp",
+  "fields": [
+   {
+    "field_name": "name"
+   },
+   {
+    "field_name": "montant_a_regler"
+   },
+   {
+    "field_name": "mode_paiement"
+   },
+   {
+    "field_name": "fournisseur"
+   },
+   {
+    "field_name": "date_echeance"
+   }
+  ],
+  "file_name": null,
+  "header_type": null,
+  "modified": "2026-07-02 15:12:34.875648",
+  "name": "Reglement Transmis - Notif Tresorier",
+  "notification_name": "Reglement Transmis - Notif Tresorier",
+  "notification_type": "DocType Event",
+  "property_value": null,
+  "reference_doctype": "Bon de Reglement ISQ",
+  "set_property_after_alert": null,
+  "template": "reglement_transmis_tresorier-fr",
+  "whatsapp_account": "ISquare Test"
+ }
+]
