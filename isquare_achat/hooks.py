@@ -291,5 +291,6 @@ fixtures = [
     "Custom HTML Block",
     {"dt": "Number Card", "filters": [["document_type", "like", "%ISQ%"]]},
     {"dt": "Print Format", "filters": [["module", "=", "ISquare Achat"]]},
-    "Role"
+    "Role",
+    {"dt": "WhatsApp Notification", "filters": [["reference_doctype", "like", "%ISQ%"]]}
 ]
